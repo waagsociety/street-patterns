@@ -96,10 +96,11 @@ body {
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
   margin: 0;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-family: "Lato", "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -109,7 +110,7 @@ h1 {
 }
 
 a, a:visited, a:hover {
-  color: rgb(34, 34, 34);
+  color: rgb(255, 255, 255);
 }
 
 #steps {
@@ -122,7 +123,7 @@ section {
 }
 
 .container {
-  padding: 30px;
+  padding: 80px 30px;
 }
 
 .map {
@@ -133,7 +134,7 @@ section {
 
 .button-bottom {
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
   width: 100%;
 }
 
@@ -156,10 +157,18 @@ section {
 }
 
 button {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: transparent;
+  border: 3px solid white;
+  background: white;
+  color: #333;
+  padding: 5px 25px;
+  font-size: 1.5em !important;
+  border-radius: 4px;
+  box-shadow: 0 4px 0 rgba(0,0,0,.3);
   font-size: inherit;
   text-transform: none;
   font-weight: normal;
+  transition: .1s ease-in-out;
 }
 
 .leaflet-container {
@@ -167,9 +176,9 @@ button {
 }
 
 h1, h2 {
-  border-bottom-color: rgba(0,0,0, 0.1);
+  border-bottom-color: rgba(255,255,255, 0.1);
   border-bottom-style: solid;
-  border-bottom-width: 6px;
+  border-bottom-width: 3px;
 }
 
 code {
@@ -217,4 +226,52 @@ code {
 #step-svg-img {
   display: block;
   margin: 0 auto;
+}
+
+@media (min-width:320px) {
+  body{
+    font-size: 85%;
+  }
+  .intro__title{
+    font-size: 3em;
+  }
+  .summary__figure{
+    width: 100%;
+  }
+  .summery__content{
+    width: 100%;
+    padding: 0 $gutter;
+  }
+  .big__padding{
+    padding: $gutter;
+  }
+}
+@media (min-width:481px) {
+  body{
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width:641px) {
+  h1{
+    font-size: 5rem;
+  }
+}
+
+@media (min-width:961px) {
+}
+
+@media (min-width:1025px) {
+}
+
+@media (min-width:1281px) {
+  body{
+    font-size: 1.7em;
+  }
+  h1{
+    font-size: 7rem;
+  }
+}
+
+@media (min-width:2000px) {
 }
