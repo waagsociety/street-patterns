@@ -54,8 +54,8 @@ var StepIntro = React.createClass({
       <section>
         <div className="container">
           <div className="row">
-            <h1>Waag Society Hacking heritage tutorial</h1>
-            <p>Use street pattern data to make physical visualisations.</p>
+            <h1>Use street pattern data to make physical visualisations</h1>
+            <p>Waag Society Hacking heritage tutorial.</p>
             <p>Beautiful patterns can emerge from a city's street network (some of the patterns in the streets of Amsterdam are more than a 1000 years old!), and by using only open data and open source tools, we can extract those patterns, and visualize and physicalize them.</p>
             <p>This is a tutorial on using <a href="http://wiki.openstreetmap.org/wiki/Key:highway">OpenStreetMap road data</a> to make physical visualizations using Fablab equipment. Follow along, and don't forget to click on all the links to read some background information!.</p>
             <p>The end result (a vector graphic) can be turned into a personal object, by using a laser cutter or vinyl cutter, standard equipment that can be found at a <a href="http://fablab.waag.org/machines">Fablab</a> maker space.</p>
