@@ -113,8 +113,8 @@ var StepIntro = React.createClass({
       ),
 
       React.createElement(
-        "div",
-        { className: "logo" }
+        "a",
+        { className: "logo", href: "https://waag.org" }
       ),
       React.createElement(
         "div",
@@ -673,9 +673,9 @@ var colors = [
   "#ce0e00",
   "#cb4100",
   "#c87200",
-  "#c5a100",
-  "#b4c200",
-  "#82bf00"
+  "#86C6F8",
+  "#86F8C8",
+  "#C6F886"
 ];
 
 var steps = [
