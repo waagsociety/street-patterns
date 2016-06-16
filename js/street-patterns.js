@@ -111,6 +111,11 @@ var StepIntro = React.createClass({
           )
         )
       ),
+
+      React.createElement(
+        "div",
+        { className: "logo" }
+      ),
       React.createElement(
         "div",
         { className: "button-bottom" },
